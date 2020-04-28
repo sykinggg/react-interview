@@ -1,0 +1,24 @@
+[id^="components-grid-demo-"] .ant-row > div:not(.gutter-row):nth-child(2n + 1) {
+  background: rgba(0, 146, 255, 0.75);
+}
+.grid-demo .ant-row > div:not(.gutter-row),
+[id^="components-grid-demo-"] .ant-row > div:not(.gutter-row) {
+  padding: 16px 0;
+  background: #0092ff;
+}
+
+.grid-demo .ant-row > div,
+[id^="components-grid-demo-"] .ant-row > div,
+.grid-demo .ant-row > div,
+[id^="components-grid-demo-"] .ant-row > div {
+  min-height: 30px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #fff;
+  text-align: center;
+  border-radius: 0;
+}
+
+#components-grid-demo-flex [class~="ant-row"] {
+  background: rgba(128, 128, 128, 0.08);
+}

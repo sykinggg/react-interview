@@ -1,0 +1,64 @@
+{
+    "name": "react-pc",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ant-design/icons": "^4.0.2",
+        "@antv/data-set": "^0.10.2",
+        "@antv/g2": "^4.0.1",
+        "@antv/g2plot": "^0.11.37",
+        "@types/d3": "^5.7.2",
+        "@types/echarts": "^4.4.1",
+        "@types/jest": "24.0.20",
+        "@types/jquery": "^3.3.31",
+        "@types/node": "12.11.7",
+        "@types/react": "16.9.11",
+        "@types/react-custom-scrollbars": "^4.0.6",
+        "@types/react-dom": "16.9.3",
+        "@types/react-router-dom": "^5.1.2",
+        "antd": "^4.1.1",
+        "axios": "^0.19.2",
+        "babel-plugin-import": "^1.12.2",
+        "bizcharts": "^3.5.6",
+        "customize-cra": "^0.8.0",
+        "d3": "^5.12.0",
+        "echarts": "^4.4.0",
+        "highcharts": "^7.2.1",
+        "jquery": "^3.4.1",
+        "less": "^3.10.3",
+        "less-loader": "^5.0.0",
+        "moment": "^2.24.0",
+        "monaco-editor": "^0.20.0",
+        "node-sass": "^4.13.0",
+        "react": "^16.11.0",
+        "react-app-rewired": "^2.1.4",
+        "react-custom-scrollbars": "^4.2.1",
+        "react-dom": "^16.11.0",
+        "react-monaco-editor": "^0.36.0",
+        "react-router": "^5.1.2",
+        "react-router-dom": "^5.1.2",
+        "react-scripts": "3.2.0",
+        "typescript": "3.6.4"
+    },
+    "scripts": {
+        "start": "set PORT=8008 && react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-app-rewired eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
